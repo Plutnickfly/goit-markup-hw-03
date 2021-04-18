@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework3 (main page)</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,85 +13,93 @@
 
 <body>
     <header>
-        <div class=" header container flex ">
+        <div class="header container flex">
             <a href="./index.html " class="logo "><span class="blue ">Web</span>Studio</a>
 
-            <nav class="black list flex ">
-                <ul class="list ">
-                    <li class="item "><a href="./index.html " class="current nav-list ">Студия</a></li>
-                    <li class="item "><a href="./portfolio.html " class="nav-list ">Портфолио</a></li>
-                    <li class="item "><a href=" " class="nav-list ">Контакты</a></li>
+            <nav>
+                <ul class="list black flex">
+                    <li class="item"><a href="./portfolio.html " class="nav-list">Портфолио</a></li>
+                    <li class="item"><a href="./index.html " class="current nav-list">Студия</a></li>
+                    <li class="item"><a href=" " class="nav-list">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="list ">
+            <ul class="list flex contacts">
                 <li class="item-link ">
-                    <a class="Contacts-Section-Link " href="mailto:info@devstudio.com ">info@devstudio.com</a>
+                    <a class="Contacts-Section-Link" href="mailto:info@devstudio.com ">info@devstudio.com</a>
                 </li>
                 <li class="item-link ">
-                    <a class="Contacts-Section-Link " href="tel:+380961111111 ">+38 096 111 11 11</a>
+                    <a class="Contacts-Section-Link" href="tel:+380961111111 ">+38 096 111 11 11</a>
                 </li>
             </ul>
     </header>
     <main>
-        <div class="solutions ">
-            <h1 class="dessisions white ">Эффективные решения <br>для вашего бизнеса</h1>
+            <div class="solutions">
+                <!-- <div class="container"> -->
+            <h1 class="dessisions white">Эффективные решения <br>для вашего бизнеса</h1>
             <button class="button-blue service-button ">Заказать услугу</button>
+                <!-- </div> -->
         </div>
-        <section>
+        <section">
+            <div class="container">
             <h2 class="hidden ">Качества</h2>
-            <ul class="list ">
-                <li>
-                    <h3 class="section-title qualities ">Внимание к деталям</h3>
+            <ul class="list flex qualities">
+                <li class="item quality">
+                    <h3 class="section-title">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.
 
                     </p>
                 </li>
-                <li>
-                    <h3 class="section-title qualities ">Пунктуальность</h3>
+                <li class="item quality">
+                    <h3 class="section-title">Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3 class="section-title qualities ">Планирование</h3>
+                <li class="item quality">
+                    <h3 class="section-title">Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
 
-                <li>
-                    <h3 class="section-title qualities ">Современные технологии</h3>
+                <li class="item quality">
+                    <h3 class="section-title">Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
 
         <section>
-            <h2 class="main-section-title ">Чем мы занимаемся</h2>
-            <ul class="list ">
-                <li> <img src="./images/img.jpg " height="294 " width="370 " alt=" "></li>
+            <div class="container">
+            <h2 class="main-section-title">Чем мы занимаемся</h2>
+            <ul class="list flex">
+                <li class="pics"> <img src="./images/img.jpg " height="294 " width="370 " alt="work process pic"></li>
 
-                <li> <img src="./images/img-1.jpg " height="294 " width="370 " alt=" "></li>
+                <li class="pics"> <img src="./images/img-1.jpg " height="294 " width="370 " alt="work process pic"></li>
 
-                <li> <img src="./images/img-2.jpg " height="294 " width="370 " alt=" "></li>
+                <li class="pics"> <img src="./images/img-2.jpg " height="294 " width="370 " alt="work process pic"></li>
             </ul>
+            </div>
         </section>
         <section class="grey-section ">
+            <div class="container">
             <h2 class="main-section-title ">Наша команда</h2>
             <ul class="list ">
-                <li><img src="./images/img-3.jpg " height="270 " width="260 " alt="IgorPhoto ">
+                <li class="item"><img src="./images/img-3.jpg " height="270 " width="260 " alt="IgorPhoto ">
                     <h3 class="section-title ">Игорь Демьяненко</h3>
                     <p class="team-text ">Product Designer</p>
                 </li>
-                <li><img src="./images/img-4.jpg " height="270 " width="260 " alt="OlgaPhoto ">
+                <li class="item"><img src="./images/img-4.jpg " height="270 " width="260 " alt="OlgaPhoto ">
                     <h3 class="section-title ">Ольга Репина</h3>
                     <p class="team-text ">Frontend Developer</p>
                 </li>
-                <li><img src="./images/img-5.jpg " height="270 " width="260 " alt="NickPhoto ">
+                <li class="item"><img src="./images/img-5.jpg " height="270 " width="260 " alt="NickPhoto ">
                     <h3 class="section-title ">Николай Тарасов</h3>
                     <p class="team-text ">Marketing</p>
                 </li>
-                <li><img src="./images/img-6.jpg " height="270 " width="260 " alt="MikePhoto ">
+                <li class="item"><img src="./images/img-6.jpg " height="270 " width="260 " alt="MikePhoto ">
                     <h3 class="section-title ">Михаил Ермаков</h3>
                     <p class="team-text ">UI Designer</p>
-                </li>
+                </li class="item">
             </ul>
+        </div>
         </section>
     </main>
     <footer class="footer ">
