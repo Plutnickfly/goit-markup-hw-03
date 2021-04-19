@@ -363,6 +363,7 @@ h3.people-name{
 .folio-section {
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
+  border-top: 0;
   }
   
 .footer {
