@@ -83,9 +83,15 @@ a {
   height: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 95px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.padding-95 {
+  padding-bottom: 95px;
+}
+.gallery {
+  padding-top: 95px;
 }
 
 .contacts {
@@ -106,6 +112,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between; 
 }
+
 .qualities {
   margin-bottom: calc(-1 * 30px));
   margin-right: calc(-1 * 30px));
@@ -143,6 +150,10 @@ margin-bottom: 30px;
 .list a:focus {
   color: var(--button-blue-color);
 }
+
+header { 
+   border-bottom: 1px solid #ECECEC;
+} 
 
 .main-section-title {
   font-weight: 700;
@@ -225,7 +236,6 @@ margin-bottom: 30px;
 .grey-section {
 padding-bottom: 95px;
 padding-top: 95px;
-
   background-color: var(--button-color);
 }
 
@@ -262,11 +272,11 @@ h3.people-name{
   color: var(--button-blue-color);
 }
 
-.in-ln {
+/* .in-ln {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .logo {
   
@@ -297,9 +307,7 @@ h3.people-name{
 }
 
 .button {
-  justify-content: center;
-  margin-bottom: 50px;
-  margin-right: 8px;
+  
   padding: 6px 22px;
   border: var(--main-text-color);
   border-radius: 4px;
@@ -312,7 +320,14 @@ h3.people-name{
   background-color: var(--button-color);
   color: var(--primary-text-color);
   cursor: pointer;
-
+  }
+.li-button {
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-right: 8px;
+}
+.li-button:last-child {
+  margin-right: 0;
 }
 
 .button:active,
@@ -321,9 +336,8 @@ h3.people-name{
 .button-blue {
   background-color: var(--button-blue-color);
   color: var(--secondary-text-color);
-  cursor: pointer;
-  justify-content: center;
-  margin-bottom: 50px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .service-button {
@@ -352,14 +366,18 @@ h3.people-name{
 .list.flex {
   justify-content: left;
 }
+.in-ln.flex {
+  justify-content: center;
+}
 
 .tiles {
   margin-right: calc(-1 * 30px);
   margin-bottom: calc(-1 * 30px);
 }
 .tile-item {
+  min-width: 370px;
   flex-basis: calc((100% / 3) - 30px);
-  max-width: 370px;
+  /* max-width: 370px; */
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -367,6 +385,7 @@ h3.people-name{
 .folio-section {
   /* text-align: left; */
   padding: 20px 24px;
+  border: 1px solid #EEEEEE;
   }
 
 
